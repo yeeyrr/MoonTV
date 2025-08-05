@@ -2,7 +2,7 @@ name: Upstream Sync
 
 on:
   schedule:
-    - cron: "0 */6 * * *" # run every 6 hours
+    - cron: '25 21 */2 * *' # run every 北京时间的每三天凌晨5：25同步一次
   workflow_dispatch:
 
 permissions:
