@@ -2,7 +2,7 @@ name: Upstream Sync
 
 on:
   schedule:
-    - cron: '25 21 */2 * *' # run every 北京时间的每三天凌晨5：25同步一次
+    - cron: '25 21 */3 * *' # run every 每月的3-6-9-三的倍数天凌晨5：25同步一次
   workflow_dispatch:
 
 permissions:
